@@ -25,7 +25,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 // Configuration
-const API_BASE_URL = process.env.API_BASE_URL || "https://contentfeedapi.machinegenerated.com";
+const API_BASE_URL = process.env.API_BASE_URL || "https://feeds.parsym.com";
 const FEED_ID = process.env.FEED_ID || "292";
 const API_KEY = process.env.API_KEY;
 const SECRET_KEY = process.env.SECRET_KEY;
